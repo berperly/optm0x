@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VeTpUV+4oZ4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\optm0x\\0xOptimizer\\0xOptimizer\\0xOptimizer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.serviceprocess.servicecontroller\\8.0.0\\system.serviceprocess.servicecontroller.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

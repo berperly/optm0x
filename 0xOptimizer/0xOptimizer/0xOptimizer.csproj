@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.ServiceProcess.ServiceController" Version="8.0.0" />
+	</ItemGroup>
+
+	<!-- Garantia: não embutir resx do MainOptimizerForm -->
+	<ItemGroup>
+		<EmbeddedResource Remove="UI\Forms\MainOptimizerForm*.resx" />
+	</ItemGroup>
+	<ItemGroup>
+	  <EmbeddedResource Include="UI\Forms\MainOptimizerForm.resx" />
+	</ItemGroup>
+</Project>
